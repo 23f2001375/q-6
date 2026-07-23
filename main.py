@@ -4,7 +4,7 @@ import hashlib
 
 app = FastAPI()
 
-EMAIL = "23f2001375@ds.study.iitm.ac.in".strip().lower()
+EMAIL = "23f2003943@ds.study.iitm.ac.in".strip().lower()
 
 
 def solve(challenge: str) -> str:
