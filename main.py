@@ -12,7 +12,7 @@ def solve(challenge: str) -> str:
     return hashlib.sha256(value.encode()).hexdigest()[:16]
 
 
-@app.post("/")
+@app.post("/mcp")
 async def mcp(request: Request):
     body = await request.json()
 
